@@ -1,0 +1,29 @@
+price:£350 discounted price 300£
+## this is the price of 1 seater so automatically select 1 seater ##
+
+name: Ashton Sofa
+categories:
+
+Sofa Price 
+
+1 seater 300£ 
+
+2 seater 330£ 
+
+3 seater 380£ 
+
+4 seater 560£ 
+
+5 seater 570£ 
+
+2+3 seater 580£ 
+
+Footstool 120£
+
+High back 60£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 

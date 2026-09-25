@@ -1,0 +1,21 @@
+price:£620 discounted price 590£
+## this is the price  so automatically price ##
+
+name: U shape Sofa
+categories:
+
+Sofa Price 
+
+Price 
+590£ 
+
+
+Footstool 120£
+
+High back 70£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 

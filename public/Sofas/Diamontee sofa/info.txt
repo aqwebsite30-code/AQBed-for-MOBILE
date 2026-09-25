@@ -1,0 +1,29 @@
+price:£300 discounted price 280£
+## this is the price of 1 seater so automatically select 1 seater ##
+
+name: Diamontee Sofa
+categories:
+
+Sofa Price 
+
+1 seater 280£ 
+
+2 seater 310£ 
+
+3 seater 360£
+
+4 seater 530£ 
+
+5 seater 540£ 
+
+2+3 seater 560£ 
+
+Footstool 120£
+
+High back 60£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 

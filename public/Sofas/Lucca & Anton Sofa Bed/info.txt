@@ -1,0 +1,21 @@
+price:£700 discounted price 650£
+## this is the price of base price so automatically select base price  ##
+
+name: Lucca & Anton Sofa Bed
+categories:
+
+Sofa Price:
+
+Base Price 650£
+
+Lucca Price 690£
+
+Footstool 120£
+
+High back 60£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 

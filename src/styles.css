@@ -1,0 +1,418 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/inter-v12-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/inter-v12-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/poppins-v20-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/poppins-v20-latin-800.woff2') format('woff2');
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  text-rendering: optimizeLegibility;
+  opacity: 1 !important;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@import "tailwindcss";
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-accent: var(--brand-accent);
+  --color-cta: var(--cta);
+  --color-cta-foreground: var(--cta-foreground);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-foreground: var(--whatsapp-foreground);
+  --color-sale: var(--sale);
+  --color-sale-foreground: var(--sale-foreground);
+  --font-display: "Poppins", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --shadow-luxury: 0 10px 40px -10px color-mix(in oklab, var(--brand) 25%, transparent);
+  --shadow-soft: 0 4px 20px -4px oklch(0 0 0 / 0.08);
+  --shadow-card: 0 1px 3px oklch(0 0 0 / 0.04), 0 8px 24px -12px oklch(0 0 0 / 0.08);
+}
+
+:root {
+  --radius: 1rem;
+
+  /* Surfaces */
+  --background: oklch(0.985 0.005 240);   /* #F7FAFC-ish */
+  --foreground: oklch(0.18 0.01 250);     /* #1A1A1A */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.01 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.01 250);
+
+  /* Brand */
+  --brand: oklch(0.33 0.07 240);          /* #0B3C5D primary navy */
+  --brand-foreground: oklch(0.99 0 0);
+  --brand-accent: oklch(0.45 0.08 240);   /* #1E5F8B */
+
+  /* CTA */
+  --cta: oklch(0.50 0.13 245);            /* #0D5EA6 */
+  --cta-foreground: oklch(0.99 0 0);
+
+  /* WhatsApp */
+  --whatsapp: oklch(0.72 0.17 150);       /* #25D366 */
+  --whatsapp-foreground: oklch(0.99 0 0);
+
+  /* Sale / accents */
+  --sale: oklch(0.62 0.22 28);
+  --sale-foreground: oklch(0.99 0 0);
+
+  /* Primary mapping to brand for shadcn defaults */
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: oklch(0.96 0.01 240);
+  --secondary-foreground: var(--brand);
+  --muted: oklch(0.96 0.01 240);
+  --muted-foreground: oklch(0.45 0.02 250);
+  --accent: oklch(0.93 0.03 240);
+  --accent-foreground: var(--brand);
+  --destructive: oklch(0.62 0.22 28);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.90 0.02 240);         /* #D9E2EC */
+  --input: oklch(0.90 0.02 240);
+  --ring: oklch(0.50 0.13 245);
+}
+
+.dark {
+  --background: oklch(0.18 0.02 250);
+  --foreground: oklch(0.98 0 0);
+  --card: oklch(0.22 0.02 250);
+  --card-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.22 0.02 250);
+  --popover-foreground: oklch(0.98 0 0);
+  --brand: oklch(0.55 0.10 240);
+  --brand-foreground: oklch(0.99 0 0);
+  --brand-accent: oklch(0.65 0.10 240);
+  --cta: oklch(0.60 0.14 245);
+  --cta-foreground: oklch(0.99 0 0);
+  --whatsapp: oklch(0.72 0.17 150);
+  --whatsapp-foreground: oklch(0.18 0 0);
+  --sale: oklch(0.70 0.22 28);
+  --sale-foreground: oklch(0.99 0 0);
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: oklch(0.28 0.02 250);
+  --secondary-foreground: oklch(0.98 0 0);
+  --muted: oklch(0.28 0.02 250);
+  --muted-foreground: oklch(0.70 0.02 250);
+  --accent: oklch(0.32 0.03 250);
+  --accent-foreground: oklch(0.98 0 0);
+  --destructive: oklch(0.65 0.22 28);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(1 0 0 / 0.12);
+  --input: oklch(1 0 0 / 0.16);
+  --ring: oklch(0.60 0.14 245);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .hover-lift {
+    transition: transform 300ms ease, box-shadow 300ms ease;
+  }
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-luxury);
+  }
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out both;
+  }
+  .animate-fade-up {
+    animation: fade-up 0.7s ease-out both;
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Custom Color Selector UI */
+  .color-selection-container {
+    display: flex;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    padding: 12px 20px 20px 20px;  /* reduced top — scroll area now provides the gap */
+    gap: 8px;
+    width: max-content;
+    min-width: 100%;
+  }
+
+  .color-scroll-area {
+    display: block;
+    width: 100vw;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    overflow-x: auto;
+    overflow-y: visible;      /* allow glow to bleed above/below without clip */
+    padding-top: 18px;        /* room for the active-item scale + glow */
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+    cursor: grab;
+    scrollbar-width: none;
+  }
+
+  .color-scroll-area::-webkit-scrollbar {
+    display: none;
+  }
+
+  .color-scroll-area:active {
+    cursor: grabbing;
+  }
+
+  .color-selection-item {
+    position: relative;
+    flex-shrink: 0;
+    width: 32px;
+    height: 40px;
+    border: none;
+    outline: none;
+    transition: 500ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .color-selection-item::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color, #ccc);
+    background-image: var(--bg-img);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    transform: scale(1.1);
+    pointer-events: none;
+    transition: 500ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+    border: 2px solid transparent;
+  }
+
+  .color-selection-item.active::after {
+    border-color: var(--color-cta);
+    box-shadow: 0 0 15px var(--color-cta);
+    transform: scale(1.3);
+    z-index: 60;
+  }
+
+  .color-selection-item::before {
+    position: absolute;
+    content: attr(data-label);
+    left: 50%;
+    bottom: 55px;
+    font-size: 10px;
+    font-weight: 600;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    padding: 4px 8px;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: 500ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 100;
+  }
+
+  /* Hover effects restricted to non-touch devices */
+  @media (hover: hover) and (pointer: fine) {
+    .color-selection-item:hover {
+      transform: scale(1.6) translateY(-5px);
+      z-index: 50;
+    }
+
+    .color-selection-item:hover::before {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(-5px);
+    }
+
+    /* Nearby items scaling effect */
+    .color-selection-item:hover + * {
+      transform: scale(1.35);
+      z-index: 40;
+    }
+
+    .color-selection-item:hover + * + * {
+      transform: scale(1.15);
+      z-index: 30;
+    }
+
+    /* Target previous siblings using :has */
+    .color-selection-item:has(+ :hover) {
+      transform: scale(1.35);
+      z-index: 40;
+    }
+
+    .color-selection-item:has(+ * + :hover) {
+      transform: scale(1.15);
+      z-index: 30;
+    }
+  }
+
+  .color-selection-item:active::after {
+    transform: scale(1);
+  }
+}
+
+@layer components {
+  .liquid-button {
+    position: relative;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 999px;
+    color: var(--color-foreground, #000);
+    transition: color 0.4s ease;
+    white-space: nowrap;
+  }
+
+  .liquid-button:hover {
+    color: var(--color-brand-foreground, #fff);
+  }
+
+  .liquid-button span {
+    position: relative;
+    z-index: 10;
+    font-weight: 500;
+  }
+
+  .liquid-button .liquid {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    background: var(--color-cta, #0D5EA6);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, 50px);
+    transition: transform 0.5s ease;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .liquid-button .liquid::after,
+  .liquid-button .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+  }
+
+  .liquid-button .liquid::before {
+    border-radius: 45%;
+    background: var(--color-background);
+    animation: liquid-animate 5s linear infinite;
+  }
+
+  .liquid-button .liquid::after {
+    border-radius: 40%;
+    background: var(--color-background);
+    opacity: 0.8;
+    animation: liquid-animate 10s linear infinite;
+  }
+
+  .liquid-button:hover .liquid {
+    transform: translate(-50%, -140px);
+  }
+}
+
+@keyframes liquid-animate {
+  0% { transform: translate(-50%, -75%) rotate(0deg); }
+  100% { transform: translate(-50%, -75%) rotate(360deg); }
+}

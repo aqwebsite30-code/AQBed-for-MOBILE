@@ -1,0 +1,48 @@
+price:£200 discounted price £185 
+## this is the price of small single bed so automatically select small single##
+name: Luxury Divan Bed
+categories:
+
+1: With matters 
+2: Without matters
+
+if with matters 
+Size:
+(2ft small single) price= £185
+(3ft standard single) price= £190
+(4ft small double) price= £215
+(4"6ft standard double) price= £220
+(5ft king size) price= £235
+(6ft super king) price= £300 discounted price £290
+
+if without matters 
+Size:
+(2ft small single) price= £150
+(3ft Standard single) price= £155
+(4ft Small double) price= £160
+(4"6ft Standard double) price= £170
+( 5ft King size) price= £180
+( 6ft Super king) price= £220 
+
+mattress: 
+Basic memory foam £40
+Full arthropathic £50
+1000 pocket £60
+2000 pockets £80 
+
+headboard: (With standard headboard) At the end in your selection
+
+storage:
+No storage
+## If anyone wants drawers so customer need to pay extra 
+
+
+2 drawers £40
+4 drawers £70
+
+Before this select no storage and if person selects 2 drawers
+charge £40 for 
+70£ for 4 drawers
+
+extra-info: Additional instruction 
+

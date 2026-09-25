@@ -1,0 +1,39 @@
+price:400 discounted price £350
+## this is the price of standard single bed so automatically select small single##
+
+name: Luxury Divan ottoman gas lift storage bed
+categories:
+
+1: With matters 
+2: Without matters
+
+if with matters 
+Size:
+(3ft standard single) price= £350
+(4ft small double) price= £400
+(4"6ft standard double) price= £410
+(5ft king size) price= £440
+(6ft super king) price= £499
+## they will get bed wit Irish mattress 10"
+##
+
+if without matters 
+Size:
+(3ft Standard single) price= £310
+(4ft Small double) price= £340
+(4"6ft Standard double) price= £350
+( 5ft King size) price= £370
+( 6ft Super king) price= £420
+
+mattress: 
+Basic memory foam £40
+Full arthropathic £50
+1000 pocket £60
+2000 pockets £80 
+
+headboard: (With standard headboard 45" ) At the end in your selection
+if anyone wants 54" headboard £80
+If anyone wants assembly £60
+
+extra-info: Additional instruction 
+

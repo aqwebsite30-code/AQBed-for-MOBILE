@@ -1,0 +1,27 @@
+price:£220 discounted price 185£
+## this is the price of 1 seater so automatically select 1 seater ##
+
+name: Dylan Sofa
+categories:
+
+1 seater 185£
+
+2 seater 205£
+
+3 seater 225£
+
+4 seater 315£
+
+5 seater 350£
+
+2+3 seater 325£
+
+
+High Back 60£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 
+

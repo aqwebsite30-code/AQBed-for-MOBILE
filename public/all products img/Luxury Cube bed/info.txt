@@ -1,0 +1,63 @@
+price:250 discounted price £210
+## this is the price of small single bed so automatically select small single##
+
+name: Luxury cube Bed
+categories:
+
+1: With matters 
+2: Without matters
+
+if with matters 
+Size:
+(2ft small single) price= £210
+(3ft standard single) price= £220
+(4ft small double) price= £240
+(4"6ft standard double) price= £250
+(5ft king size) price= £270
+(6ft super king) price= £350
+
+if without matters 
+Size:
+(2ft small single) price= £175
+(3ft Standard single) price= £180
+(4ft Small double) price= £200
+(4"6ft Standard double) price= £210
+( 5ft King size) price= £220
+( 6ft Super king) price= £280
+
+mattress: 
+Basic memory foam £40
+Full arthropathic £50
+1000 pocket £60
+2000 pockets £80 
+
+headboard: (With standard headboard) At the end in your selection
+
+storage:
+No storage
+Ottoman storage gas lift
+
+## If anyone wants ottoman storage gas lift so customer need to pay extra 
+
+Standard 
+Small double 
+Standard double 
+King size
+£120
+
+
+And  
+Super king 
+£160
+
+##Before this select no storage and if person selects Ottoman storage gas lift
+charge £120 for  
+Standard 
+Small double 
+Standard double
+King size
+and 150£ for Super king 
+##
+
+
+extra-info: Additional instruction 

@@ -1,0 +1,19 @@
+price:£300 discounted price 260£
+## this is the price of 100cm warddrobe so automatically select 100cm warddrobe##
+
+name: Sliding wardrobe
+categories:
+
+*Sliding ‎WARDROBE PRICE*
+‎Size price Assembly
+‎100cm £260 £70
+‎120cm £280 £80
+‎150cm £299 £90
+‎180cm £320 £100
+‎203cm £350 £110
+‎250cm £450 £120
+Important 
+Add size and ther respective prices and also another category for assembly in which the assembly charges should be respectively to there size for example if  select 100cm so the price is £260 and if i select assembly charge £70 and also for other respectively
+
+
+extra-info: Additional instruction 

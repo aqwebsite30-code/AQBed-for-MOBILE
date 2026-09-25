@@ -1,0 +1,29 @@
+price:£350 discounted price 310£
+## this is the price of 1 seater so automatically select 1 seater ##
+
+name: Lily Sofa
+categories:
+
+Sofa Price 
+
+1 seater 310£ 
+
+2 seater 380£ 
+
+3 seater 410£ 
+
+4 seater 570£ 
+
+5 seater 620£ 
+
+2+3 seater 640£
+
+Footstool 120£
+
+High back 60£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 

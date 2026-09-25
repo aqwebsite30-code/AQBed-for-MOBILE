@@ -1,0 +1,28 @@
+price:£400 discounted price 370£
+## this is the price of 1 seater so automatically select 1 seater ##
+
+name: Chesterfield Sofa
+categories:
+
+Sofa Price 
+
+Sofa Price 
+1 seater 370£ 
+
+2 seater 470£ 
+
+3 seater 530£ 
+
+5 seater 930£ 
+
+2+3 seater 940£ 
+
+Footstool 150-250£ 
+
+High back 60£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 

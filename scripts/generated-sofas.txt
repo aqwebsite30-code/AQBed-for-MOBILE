@@ -1,0 +1,563 @@
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // ALASKA SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("alaska-sofa", "Alaska Sofa", "sofas", 280, 310,
+    "/Sofas/Alaska Sofaa/alaska-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 30 },
+      { name: "3 seater", extraPrice: 70 },
+      { name: "4 seater", extraPrice: 250 },
+      { name: "5 seater", extraPrice: 250 },
+      { name: "2+3 seater", extraPrice: 260 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 40 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Alaska Sofaa/alaska-sofa-main.webp",
+      "/Sofas/Alaska Sofaa/alaska-sofa-gallery-1.webp",
+      "/Sofas/Alaska Sofaa/alaska-sofa-gallery-2.webp",
+      "/Sofas/Alaska Sofaa/alaska-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Alaska Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // ASHTON SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("ashton-sofa", "Ashton Sofa", "sofas", 300, 350,
+    "/Sofas/Ashton Sofa/ashton-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 30 },
+      { name: "3 seater", extraPrice: 80 },
+      { name: "4 seater", extraPrice: 260 },
+      { name: "5 seater", extraPrice: 270 },
+      { name: "2+3 seater", extraPrice: 280 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Ashton Sofa/ashton-sofa-main.webp",
+      "/Sofas/Ashton Sofa/ashton-sofa-gallery-1.webp",
+      "/Sofas/Ashton Sofa/ashton-sofa-gallery-2.webp",
+      "/Sofas/Ashton Sofa/ashton-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Ashton Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // BERLIN SOFA BED
+  // ══════════════════════════════════════════════════════════════════════════
+  product("berlin-sofa-bed", "Berlin Sofa bed", "sofas", 380, 400,
+    "/Sofas/Berlin Sofa Bed/berlin-sofa-bed-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Berlin Sofa Bed/berlin-sofa-bed-main.webp",
+      "/Sofas/Berlin Sofa Bed/berlin-sofa-bed-gallery-1.webp",
+      "/Sofas/Berlin Sofa Bed/berlin-sofa-bed-gallery-2.webp",
+      "/Sofas/Berlin Sofa Bed/berlin-sofa-bed-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Berlin Sofa bed, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // CHESTERFIELD SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("chesterfield-sofa", "Chesterfield Sofa", "sofas", 370, 400,
+    "/Sofas/Chesterfield Sofa/chesterfield-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 100 },
+      { name: "3 seater", extraPrice: 160 },
+      { name: "5 seater", extraPrice: 560 },
+      { name: "2+3 seater", extraPrice: 570 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 150 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Chesterfield Sofa/chesterfield-sofa-main.webp",
+      "/Sofas/Chesterfield Sofa/chesterfield-sofa-gallery-1.webp",
+      "/Sofas/Chesterfield Sofa/chesterfield-sofa-gallery-2.webp",
+      "/Sofas/Chesterfield Sofa/chesterfield-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Chesterfield Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // DIAMONTEE SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("diamontee-sofa", "Diamontee Sofa", "sofas", 280, 300,
+    "/Sofas/Diamontee sofa/diamontee-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 30 },
+      { name: "3 seater", extraPrice: 80 },
+      { name: "4 seater", extraPrice: 250 },
+      { name: "5 seater", extraPrice: 260 },
+      { name: "2+3 seater", extraPrice: 280 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Diamontee sofa/diamontee-sofa-main.webp",
+      "/Sofas/Diamontee sofa/diamontee-sofa-gallery-1.webp",
+      "/Sofas/Diamontee sofa/diamontee-sofa-gallery-2.webp"
+    ],
+    description: "Premium handcrafted Diamontee Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // DINO SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("dino-sofa", "Dino Sofa", "sofas", 280, 320,
+    "/Sofas/Dino sofa/dino-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 30 },
+      { name: "3 seater", extraPrice: 70 },
+      { name: "5 seater", extraPrice: 210 },
+      { name: "2+3 seater", extraPrice: 220 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Dino sofa/dino-sofa-main.webp",
+      "/Sofas/Dino sofa/dino-sofa-gallery-1.webp",
+      "/Sofas/Dino sofa/dino-sofa-gallery-2.webp",
+      "/Sofas/Dino sofa/dino-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Dino Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // DYLAN SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("dylan-sofa", "Dylan Sofa", "sofas", 185, 220,
+    "/Sofas/Dylan Sofa/dylan-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 20 },
+      { name: "3 seater", extraPrice: 40 },
+      { name: "4 seater", extraPrice: 130 },
+      { name: "5 seater", extraPrice: 165 },
+      { name: "2+3 seater", extraPrice: 140 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Dylan Sofa/dylan-sofa-main.webp",
+      "/Sofas/Dylan Sofa/dylan-sofa-gallery-1.webp",
+      "/Sofas/Dylan Sofa/dylan-sofa-gallery-2.webp",
+      "/Sofas/Dylan Sofa/dylan-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Dylan Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // HARRISON SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("harrison-sofa", "Harrison Sofa", "sofas", 310, 350,
+    "/Sofas/Harrison Sofa/harrison-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 40 },
+      { name: "3 seater", extraPrice: 110 },
+      { name: "4 seater", extraPrice: 230 },
+      { name: "5 seater", extraPrice: 250 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Harrison Sofa/harrison-sofa-main.webp",
+      "/Sofas/Harrison Sofa/harrison-sofa-gallery-1.webp",
+      "/Sofas/Harrison Sofa/harrison-sofa-gallery-2.webp",
+      "/Sofas/Harrison Sofa/harrison-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Harrison Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // LILY SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("lily-sofa", "Lily Sofa", "sofas", 310, 350,
+    "/Sofas/Lily Sofa/lily-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 70 },
+      { name: "3 seater", extraPrice: 100 },
+      { name: "4 seater", extraPrice: 260 },
+      { name: "5 seater", extraPrice: 310 },
+      { name: "2+3 seater", extraPrice: 330 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Lily Sofa/lily-sofa-main.webp",
+      "/Sofas/Lily Sofa/lily-sofa-gallery-1.webp",
+      "/Sofas/Lily Sofa/lily-sofa-gallery-2.webp",
+      "/Sofas/Lily Sofa/lily-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Lily Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // LUCCA & ANTON SOFA BED
+  // ══════════════════════════════════════════════════════════════════════════
+  product("lucca-anton-sofa-bed", "Lucca & Anton Sofa Bed", "sofas", 650, 700,
+    "/Sofas/Lucca & Anton Sofa Bed/lucca-anton-sofa-bed-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Lucca & Anton Sofa Bed/lucca-anton-sofa-bed-main.webp",
+      "/Sofas/Lucca & Anton Sofa Bed/lucca-anton-sofa-bed-gallery-1.webp",
+      "/Sofas/Lucca & Anton Sofa Bed/lucca-anton-sofa-bed-gallery-2.webp",
+      "/Sofas/Lucca & Anton Sofa Bed/lucca-anton-sofa-bed-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Lucca & Anton Sofa Bed, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // MAYA SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("maya-sofa", "Maya sofa", "sofas", 280, 320,
+    "/Sofas/Maya Sofa/maya-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 30 },
+      { name: "3 seater", extraPrice: 80 },
+      { name: "4 seater", extraPrice: 250 },
+      { name: "5 seater", extraPrice: 260 },
+      { name: "2+3 seater", extraPrice: 270 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Maya Sofa/maya-sofa-main.webp",
+      "/Sofas/Maya Sofa/maya-sofa-gallery-1.webp",
+      "/Sofas/Maya Sofa/maya-sofa-gallery-2.webp",
+      "/Sofas/Maya Sofa/maya-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Maya sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // OLYMPIA SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("olympia-sofa", "Olympia sofa", "sofas", 280, 320,
+    "/Sofas/Olympia Sofa/olympia-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 30 },
+      { name: "3 seater", extraPrice: 80 },
+      { name: "4 seater", extraPrice: 250 },
+      { name: "5 seater", extraPrice: 260 },
+      { name: "2+3 seater", extraPrice: 270 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Olympia Sofa/olympia-sofa-main.webp",
+      "/Sofas/Olympia Sofa/olympia-sofa-gallery-1.webp",
+      "/Sofas/Olympia Sofa/olympia-sofa-gallery-2.webp",
+      "/Sofas/Olympia Sofa/olympia-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Olympia sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // SHANON SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("shanon-sofa", "Shanon Sofa", "sofas", 280, 320,
+    "/Sofas/Shanon Sofa/shanon-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 30 },
+      { name: "3 seater", extraPrice: 70 },
+      { name: "4 seater", extraPrice: 190 },
+      { name: "5 seater", extraPrice: 210 },
+      { name: "2+3 seater", extraPrice: 220 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Shanon Sofa/shanon-sofa-main.webp",
+      "/Sofas/Shanon Sofa/shanon-sofa-gallery-1.webp",
+      "/Sofas/Shanon Sofa/shanon-sofa-gallery-2.webp",
+      "/Sofas/Shanon Sofa/shanon-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Shanon Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // U SHAPE SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("u-shape-sofa", "U shape Sofa", "sofas", 590, 620,
+    "/Sofas/U Shape Sofa/u-shape-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 70 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/U Shape Sofa/u-shape-sofa-main.webp",
+      "/Sofas/U Shape Sofa/u-shape-sofa-gallery-1.webp",
+      "/Sofas/U Shape Sofa/u-shape-sofa-gallery-2.webp",
+      "/Sofas/U Shape Sofa/u-shape-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted U shape Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // DIAMONTEE SOFA
+  // ══════════════════════════════════════════════════════════════════════════
+  product("diamontee-sofa", "Diamontee Sofa", "sofas", 280, 320,
+    "/Sofas/Verona Sofa/diamontee-sofa-main.webp", {
+    sizes: [
+      { name: "1 seater", extraPrice: 0 },
+      { name: "2 seater", extraPrice: 20 },
+      { name: "3 seater", extraPrice: 80 },
+      { name: "4 seater", extraPrice: 200 },
+      { name: "5 seater", extraPrice: 210 },
+      { name: "2+3 seater", extraPrice: 220 },
+    ],
+    frameOptions: [
+      { name: "No Additional Options", extraPrice: 0 },
+      { name: "Footstool", extraPrice: 120 },
+      { name: "High back", extraPrice: 60 },
+      { name: "Professional Assembly", extraPrice: 80 },
+      { name: "Chrome legs", extraPrice: 50 },
+    ],
+    images: [
+      "/Sofas/Verona Sofa/diamontee-sofa-main.webp",
+      "/Sofas/Verona Sofa/diamontee-sofa-gallery-1.webp",
+      "/Sofas/Verona Sofa/diamontee-sofa-gallery-2.webp",
+      "/Sofas/Verona Sofa/diamontee-sofa-gallery-3.webp"
+    ],
+    description: "Premium handcrafted Diamontee Sofa, customized for luxury and comfort.",
+    storageOptions: [],
+    headboardOptions: [],
+    mattressOptions: [],
+    fabrics: [],
+    colors: [
+      { name: "White", hex: "#FFFFFF" },
+      { name: "Grey", hex: "#808080" },
+      { name: "Black", hex: "#1A1A1A" },
+      { name: "Oak", hex: "#A08151" }
+    ],
+  }),

@@ -1,0 +1,28 @@
+{
+  "name": "aqbeds",
+  "buildCommand": "npm run build",
+  "framework": null,
+  "installCommand": "npm install",
+  "outputDirectory": "dist/client",
+  "routes": [
+    {
+      "src": "/api/meta-capi",
+      "dest": "/api/meta-capi.js"
+    },
+    {
+      "src": "/api/meta-catalog.csv",
+      "dest": "/api/meta-catalog.js"
+    },
+    {
+      "src": "/",
+      "dest": "/api/index"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index"
+    }
+  ]
+}

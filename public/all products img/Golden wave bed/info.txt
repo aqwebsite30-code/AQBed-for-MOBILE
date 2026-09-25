@@ -1,0 +1,64 @@
+Price:£300 discounted Price £250
+## this is the price of small single bed so automatically select small single##
+name: Luxury Golden wave Bed
+categories:
+
+1: With matters
+2: Without matters
+
+if with matters
+Size:
+(2ft small single) price= £250
+(3ft standard single) price= £260
+(4ft small double) price= £290
+(4"6ft standard double) price= £300
+(5ft king size) price= £330
+(6ft super king) price= £390
+
+if without matters
+Size:
+(2ft small single) price= £210
+(3ft Standard single) price= £220
+(4ft Small double) price= £250
+(4"6ft Standard double) price= £260
+( 5ft King size) price= £280
+( 6ft Super king) price= £300
+
+mattress:
+Basic memory foam £40
+Full arthropathic £50
+1000 pocket £60
+2000 pockets £80
+
+headboard: (With standard headboard) At the end in your selection
+
+storage:
+No storage
+Ottoman storage gas lift
+
+## If anyone wants ottoman storage gas lift so customer need to pay extra
+
+Small single
+Standard
+Small double
+Standard double
+King size
+£120
+
+
+And
+Super king
+£160
+
+Before this select no storage and if person selects Ottoman storage gas lift
+charge £120 for
+Small single
+Standard
+Small double
+Standard double
+King size
+and 160£ for Super king
+##
+
+
+extra-info: Additional instruction

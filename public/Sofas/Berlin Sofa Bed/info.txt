@@ -1,0 +1,16 @@
+price:£400 discounted price 380£
+## this is the price of Base price so automatically select Base price ##
+
+name: Berlin Sofa bed
+categories:
+
+Sofa Price 
+
+Base price
+380£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 

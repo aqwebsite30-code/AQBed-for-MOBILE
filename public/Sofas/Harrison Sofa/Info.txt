@@ -1,0 +1,27 @@
+price:£350 discounted price 310£
+## this is the price of 1 seater so automatically select 1 seater ##
+
+name: Harrison Sofa
+categories:
+
+Sofa Price 
+
+1 seater 310£ 
+
+2 seater 350£ 
+
+3 seater 420£ 
+
+4 seater 540£ 
+
+5 seater 560£
+
+Footstool 120£
+
+High back 60£
+
+Assembly Charges for sofa will be 80£
+
+Chrome legs extra 50£
+
+extra-info: Additional instruction 
